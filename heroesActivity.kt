@@ -13,7 +13,7 @@ import org.json.JSONObject
 
 class heroesActivity : AppCompatActivity() {
 
-
+//    please change URL_Root with your URL
     private val URL_ROOT = "http://192.168.43.11/heroapi/HeroApi/v1/?op="
     val URL_GET_HEROES = URL_ROOT + "getheroes"
 
